@@ -1,0 +1,133 @@
+
+.shop {
+	background-color: #4287f5;
+	text-align:center;
+	padding: 80px;
+	margin: 0;
+	color: white;
+}
+
+nav a {
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	color: white;
+	display: block;
+
+}
+
+nav a:hover {
+	background-color: #DDD;
+	color: black;
+}
+
+nav {
+	background-color: black;
+	overflow: hidden;
+	
+
+}
+
+nav a.menu_left {
+	float: left;
+}
+
+nav a.menu_right {
+	float: right;
+}
+
+
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+
+}
+ 
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+footer a {
+	color: white;
+}
+
+.course_container {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.course_item {
+	text-align: center;
+	flex: 33%
+
+}
+
+.course_img {
+	width: 90%
+}
+
+.flex_container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.left_side {
+	background-color:#f1f1f1;
+	padding: 10px 20px;
+	flex: 30%
+
+}
+
+.right_side {
+	padding: 10px 20px
+	flex:70%;
+
+}
+
+.course_title {
+	font-weight: bold;
+	font-size: 150%
+}
+
+.course_desct {
+	margin: 10px 10px 20px 10px
+}
+
+@media(max-width: 800px) {
+	.left_side {
+		flex: 100%;
+	}
+	.right_side {
+		flex: 100%;
+	}
+	.flex_container {
+		flex-wrap: wrap;
+	}
+
+	.course_item {
+		flex: 50%;
+	}
+		
+}
